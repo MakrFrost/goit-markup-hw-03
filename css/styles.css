@@ -11,10 +11,19 @@
 /* Добавляет стили для тега body */
 
 body {
+  margin: 0;
+
   color: var(--first-text-color);
   background-color: var(--color-white);
 
   font-family: 'Roboto', sans-serif;
+}
+
+/* Главный контейнер со всем контентом */
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Добавляет стили для тега nav, header и li */
