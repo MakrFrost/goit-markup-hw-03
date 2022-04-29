@@ -30,6 +30,12 @@ body {
 
 /* Добавляет стили для тега nav, header и li */
 
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .header > .logo-header {
   background-color: var(--color-white);
 }
@@ -56,7 +62,6 @@ body {
   padding: 0;
   margin: 0;
   justify-content: center;
-  flex-direction: inherit;
   display: flex;
 }
 
@@ -206,15 +211,15 @@ body {
 
 .work-list {
   display: flex;
-  margin-top: 0;
-  margin-bottom: 0;
-  justify-content: space-between;
+  margin: 0 15px 0 15px;
 }
 
 .work-item img {
   display: block;
   max-width: 100%;
   height: auto;
+
+  padding: 0 15px 0 15px;
 }
 
 .work-title {
@@ -264,6 +269,9 @@ body {
 }
 
 .team-items {
+  margin-right: 15px;
+  margin-left: 15px;
+
   list-style-type: none;
 
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
