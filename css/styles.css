@@ -30,10 +30,26 @@ body {
 
 /* Добавляет стили для тега nav, header и li */
 
-.header {
+/* .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+} */
+.header {
+  border-bottom: 1px solid #ececec;
+  box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-nav nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .header > .logo-header {
@@ -41,8 +57,7 @@ body {
 }
 
 .logo-header {
-  margin-top: 24px;
-  margin-bottom: 25px;
+  margin: 24px 94px 25px auto;
 
   color: var(--color-black);
 
@@ -65,13 +80,26 @@ body {
   display: flex;
 }
 
+.header-list-site .item {
+  margin-right: 50px;
+}
+
+.header-list-site .item:last-child {
+  margin-right: 0;
+}
+
 .header-list {
+  margin-left: auto;
   list-style: none;
   display: flex;
   justify-content: end;
 }
 
 .link-site {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   color: var(--first-text-color);
   text-decoration: none;
 
@@ -88,6 +116,14 @@ body {
 
 .header-list-site .link-site.actual {
   color: var(--accent-color);
+}
+
+.contact-link {
+  padding-right: 50px;
+}
+
+.contact-link:last-child {
+  padding-right: 0px;
 }
 
 .link {
@@ -387,13 +423,27 @@ body {
 
 /* Добавляет основные стили для файла portfolio.html */
 /* Добавляет стили для раздела "фильтры для поиска" */
+.filtres ul {
+  display: flex;
+  justify-content: center;
+  margin-top: 56px;
+  margin-bottom: 34px;
+}
+
 .filtres-item {
+  margin-right: 8px;
   list-style-type: none;
+}
+
+.filtres-list .filtres-item:last-child {
+  margin-right: 0px;
 }
 
 .filtres-button {
   display: inline-block;
   border: 0;
+  border-radius: 4px;
+  padding: 6px 22px;
 
   color: var(--first-text-color);
   background-color: #f5f4fa;
