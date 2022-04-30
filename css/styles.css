@@ -490,6 +490,10 @@ body {
   margin-right: 30px;
   margin-bottom: 30px;
   padding-top: 20px;
+
+  /* border-top: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee; */
 }
 
 .works-item:nth-child(3n) {
@@ -500,11 +504,8 @@ body {
   margin-bottom: 0px;
 }
 
-.links {
-  text-decoration: none;
-}
-
 .text-container {
+  margin-top: -5px;
   padding: 0px 24px 20px 24px;
 
   border-left: 1px solid #eeeeee;
