@@ -441,15 +441,21 @@ body {
 
 /* Добавляет основные стили для файла portfolio.html */
 /* Добавляет стили для раздела "фильтры для поиска" */
-.works {
+
+/* .works {
   padding-bottom: 94px;
+} */
+
+.filtres {
+  padding-top: 94px;
+  padding-bottom: 34px;
 }
 
 .filtres ul {
   display: flex;
   justify-content: center;
-  margin-top: 56px;
-  margin-bottom: 34px;
+  padding-left: 0px;
+  margin: 0;
 }
 
 .filtres-item {
@@ -490,6 +496,8 @@ body {
 /* Добавляет стили для раздела "работы" */
 
 .works {
+  padding-bottom: 94px;
+
   background-color: var(--color-white);
 }
 
