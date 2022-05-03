@@ -30,11 +30,6 @@ body {
 
 /* Добавляет стили для тега nav, header и li */
 
-/* .header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-} */
 .header {
   border-bottom: 1px solid #ececec;
   box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -57,9 +52,7 @@ body {
 }
 
 .logo-header {
-  margin-right: 93px;
-  margin-top: 24px;
-  margin-bottom: 25px;
+  padding-right: 93px;
 
   color: var(--color-black);
 
@@ -83,18 +76,16 @@ body {
 }
 
 .header-list-site .item {
-  margin-right: 50px;
+  padding-right: 50px;
 }
 
 .header-list-site .item:last-child {
-  margin-right: 0;
+  padding-right: 0;
 }
 
 .header-list {
-  margin-left: auto;
-  margin-top: 32px;
-  margin-bottom: 32px;
-  padding-left: 0;
+  padding: 0;
+  margin: 0 0 0 auto;
   list-style: none;
   display: flex;
   justify-content: end;
@@ -124,6 +115,7 @@ body {
 }
 
 .contact-link {
+  padding-left: auto;
   padding-right: 50px;
 }
 
@@ -296,8 +288,7 @@ body {
 
 .team-title {
   margin-top: 0px;
-  margin-bottom: 0px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 
   color: var(--first-text-color);
 
@@ -333,14 +324,15 @@ body {
 }
 
 .team-text {
+  padding-top: 30px;
+  padding-bottom: 30px;
+
   background-color: var(--color-white);
 }
 
 .team-name {
   margin-top: 0;
-  margin-bottom: 0;
-  padding-top: 30px;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 
   color: var(--first-text-color);
 
@@ -352,9 +344,10 @@ body {
 }
 
 .team-text p {
+  padding-top: 0;
+  padding-bottom: 0;
   margin-top: 0;
   margin-bottom: 0;
-  padding-bottom: 30px;
 
   color: var(--second-text-color);
 
@@ -448,14 +441,15 @@ body {
 
 .filtres {
   padding-top: 94px;
-  padding-bottom: 34px;
+  margin-bottom: 34px;
 }
 
-.filtres ul {
+.filtres-list {
+  margin-top: 0px;
+  margin-bottom: 50px;
   display: flex;
   justify-content: center;
   padding-left: 0px;
-  margin: 0;
 }
 
 .filtres-item {
@@ -509,17 +503,15 @@ body {
   margin-top: 0;
 }
 
+.works-list a {
+  text-decoration: none;
+}
+
 .works-item {
   list-style-type: none;
   width: 370px;
-  height: 404px;
   margin-right: 30px;
   margin-bottom: 30px;
-  padding-top: 20px;
-
-  /* border-top: 1px solid #eeeeee;
-  border-right: 1px solid #eeeeee;
-  border-left: 1px solid #eeeeee; */
 }
 
 .works-item:nth-child(3n) {
@@ -530,8 +522,11 @@ body {
   margin-bottom: 0px;
 }
 
+.works-item img {
+  display: block;
+}
+
 .text-container {
-  margin-top: -5px;
   padding: 20px 24px 20px 24px;
 
   border-left: 1px solid #eeeeee;
