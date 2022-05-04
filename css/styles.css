@@ -52,7 +52,7 @@ body {
 }
 
 .logo-header {
-  padding-right: 93px;
+  margin-right: 93px;
 
   color: var(--color-black);
 
@@ -76,11 +76,11 @@ body {
 }
 
 .header-list-site .item {
-  padding-right: 50px;
+  margin-right: 50px;
 }
 
 .header-list-site .item:last-child {
-  padding-right: 0;
+  margin-right: 0;
 }
 
 .header-list {
@@ -116,14 +116,17 @@ body {
 
 .contact-link {
   padding-left: auto;
-  padding-right: 50px;
+  margin-right: 50px;
 }
 
 .contact-link:last-child {
-  padding-right: 0px;
+  margin-right: 0px;
 }
 
 .link {
+  padding-top: 32px;
+  padding-bottom: 32px;
+
   color: var(--second-text-color);
   text-decoration: none;
 
@@ -434,10 +437,6 @@ body {
 
 /* Добавляет основные стили для файла portfolio.html */
 /* Добавляет стили для раздела "фильтры для поиска" */
-
-/* .works {
-  padding-bottom: 94px;
-} */
 
 .filtres {
   padding-top: 94px;
